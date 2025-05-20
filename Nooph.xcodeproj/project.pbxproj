@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C3A9306B2DDBFAF200B9CBB2 /* nooph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nooph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A9306B2DDBFAF200B9CBB2 /* Nooph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nooph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C3A9306D2DDBFAF200B9CBB2 /* nooph */ = {
+		C3A9306D2DDBFAF200B9CBB2 /* Nooph */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = nooph;
+			path = Nooph;
+			sourceTree = "<group>";
+		};
+		C3A9307D2DDBFB6300B9CBB2 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +37,8 @@
 		C3A930622DDBFAF200B9CBB2 = {
 			isa = PBXGroup;
 			children = (
-				C3A9306D2DDBFAF200B9CBB2 /* nooph */,
+				C3A9307D2DDBFB6300B9CBB2 /* Shared */,
+				C3A9306D2DDBFAF200B9CBB2 /* Nooph */,
 				C3A9306C2DDBFAF200B9CBB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +46,7 @@
 		C3A9306C2DDBFAF200B9CBB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3A9306B2DDBFAF200B9CBB2 /* nooph.app */,
+				C3A9306B2DDBFAF200B9CBB2 /* Nooph.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +54,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3A9306A2DDBFAF200B9CBB2 /* nooph */ = {
+		C3A9306A2DDBFAF200B9CBB2 /* Nooph */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3A9307A2DDBFAF400B9CBB2 /* Build configuration list for PBXNativeTarget "nooph" */;
+			buildConfigurationList = C3A9307A2DDBFAF400B9CBB2 /* Build configuration list for PBXNativeTarget "Nooph" */;
 			buildPhases = (
 				C3A930672DDBFAF200B9CBB2 /* Sources */,
 				C3A930682DDBFAF200B9CBB2 /* Frameworks */,
@@ -61,13 +67,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C3A9306D2DDBFAF200B9CBB2 /* nooph */,
+				C3A9306D2DDBFAF200B9CBB2 /* Nooph */,
+				C3A9307D2DDBFB6300B9CBB2 /* Shared */,
 			);
-			name = nooph;
+			name = Nooph;
 			packageProductDependencies = (
 			);
 			productName = nooph;
-			productReference = C3A9306B2DDBFAF200B9CBB2 /* nooph.app */;
+			productReference = C3A9306B2DDBFAF200B9CBB2 /* Nooph.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +92,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C3A930662DDBFAF200B9CBB2 /* Build configuration list for PBXProject "nooph" */;
+			buildConfigurationList = C3A930662DDBFAF200B9CBB2 /* Build configuration list for PBXProject "Nooph" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3A9306A2DDBFAF200B9CBB2 /* nooph */,
+				C3A9306A2DDBFAF200B9CBB2 /* Nooph */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3A930662DDBFAF200B9CBB2 /* Build configuration list for PBXProject "nooph" */ = {
+		C3A930662DDBFAF200B9CBB2 /* Build configuration list for PBXProject "Nooph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3A930782DDBFAF400B9CBB2 /* Debug */,
@@ -329,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3A9307A2DDBFAF400B9CBB2 /* Build configuration list for PBXNativeTarget "nooph" */ = {
+		C3A9307A2DDBFAF400B9CBB2 /* Build configuration list for PBXNativeTarget "Nooph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3A9307B2DDBFAF400B9CBB2 /* Debug */,

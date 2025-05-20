@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct noophApp: App {
+struct NoophApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
